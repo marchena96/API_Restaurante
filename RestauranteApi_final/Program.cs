@@ -1,0 +1,41 @@
+using RestauranteApi.DataBase;
+using RestauranteApi.Service.Implementations;
+using RestauranteApi.Service.Interfaces;
+using System.Text.Json.Serialization;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+    });
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddDbContext<RestauranteApiDbContext>();
+
+// ── Registrar todos los servicios ANTES de Build() ──
+builder.Services.AddScoped<IZoneService, ZoneService>();
+builder.Services.AddScoped<ISectionService, SectionService>();
+builder.Services.AddScoped<ITableService, TableService>();
+builder.Services.AddScoped<IClientService, ClientService>();
+builder.Services.AddScoped<ITurnService, TurnService>();
+builder.Services.AddScoped<IReservationService, ReservationService>();
+builder.Services.AddScoped<IAvailabilityService, AvailabilityService>();
+builder.Services.AddScoped<ILockTableService, LockTableService>();
+builder.Services.AddScoped<IWaitingListService, WaitingListService>();
+
+var app = builder.Build();
+
+// Asegura que la base InMemory existe y aplica los Seeds del DbContext
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<RestauranteApiDbContext>();
+    context.Database.EnsureCreated();
+}
+
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
+app.Run();

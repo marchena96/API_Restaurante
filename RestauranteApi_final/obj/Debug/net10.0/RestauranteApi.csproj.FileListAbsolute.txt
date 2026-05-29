@@ -1,0 +1,74 @@
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\appsettings.json
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\RestauranteApi.staticwebassets.endpoints.json
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\RestauranteApi.exe
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\RestauranteApi.deps.json
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\RestauranteApi.runtimeconfig.json
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\RestauranteApi.dll
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\RestauranteApi.pdb
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.csproj.AssemblyReference.cache
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.AssemblyInfoInputs.cache
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.AssemblyInfo.cs
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.csproj.CoreCompileInputs.cache
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\scopedcss\bundle\RestauranteApi.styles.css
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\Restaura.A5F8DEDD.Up2Date
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.dll
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\refint\RestauranteApi.dll
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.pdb
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.genruntimeconfig.cache
+C:\Users\angel\Downloads\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\ref\RestauranteApi.dll
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\appsettings.json
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\RestauranteApi.staticwebassets.endpoints.json
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\RestauranteApi.exe
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\RestauranteApi.deps.json
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\RestauranteApi.runtimeconfig.json
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\RestauranteApi.dll
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\RestauranteApi.pdb
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.csproj.AssemblyReference.cache
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.AssemblyInfoInputs.cache
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.AssemblyInfo.cs
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.csproj.CoreCompileInputs.cache
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\scopedcss\bundle\RestauranteApi.styles.css
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\Restaura.A5F8DEDD.Up2Date
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.dll
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\refint\RestauranteApi.dll
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.pdb
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\RestauranteApi.genruntimeconfig.cache
+C:\Users\Estudiantes UNA\Downloads\RestauranteApiPrograII\RestauranteApi_completo_disponibilidad\RestauranteApi_final\obj\Debug\net10.0\ref\RestauranteApi.dll

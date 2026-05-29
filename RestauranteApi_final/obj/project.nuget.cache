@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "DgiJ3KCLI+g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Estudiantes UNA\\Downloads\\RestauranteApiPrograII\\RestauranteApi_completo_disponibilidad\\RestauranteApi_final\\RestauranteApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Estudiantes UNA\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.6\\microsoft.aspnetcore.openapi.10.0.6.nupkg.sha512",
+    "C:\\Users\\Estudiantes UNA\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.7\\microsoft.entityframeworkcore.10.0.7.nupkg.sha512",
+    "C:\\Users\\Estudiantes UNA\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.7\\microsoft.entityframeworkcore.abstractions.10.0.7.nupkg.sha512",
+    "C:\\Users\\Estudiantes UNA\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.7\\microsoft.entityframeworkcore.analyzers.10.0.7.nupkg.sha512",
+    "C:\\Users\\Estudiantes UNA\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\10.0.7\\microsoft.entityframeworkcore.inmemory.10.0.7.nupkg.sha512",
+    "C:\\Users\\Estudiantes UNA\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
