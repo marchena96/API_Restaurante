@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Estudiantes UNA\\Downloads\\RestauranteApiPrograII\\RestauranteApi_completo_disponibilidad\\RestauranteApi_final\\",
+  "WorkspaceRootPath": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|c:\\users\\estudiantes una\\downloads\\restauranteapiprograii\\restauranteapi_completo_disponibilidad\\restauranteapi_final\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|c:\\users\\estudiantes una\\desktop\\api_restaurante\\restauranteapi_final\\restauranteapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|solutionrelative:restauranteapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|c:\\users\\estudiantes una\\downloads\\restauranteapiprograii\\restauranteapi_completo_disponibilidad\\restauranteapi_final\\restauranteapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|solutionrelative:restauranteapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|c:\\users\\estudiantes una\\desktop\\api_restaurante\\restauranteapi_final\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|c:\\users\\estudiantes una\\desktop\\api_restaurante\\restauranteapi_final\\postman\\restauranteapi.postman_collection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|solutionrelative:postman\\restauranteapi.postman_collection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|c:\\users\\estudiantes una\\desktop\\api_restaurante\\restauranteapi_final\\database\\restauranteapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|solutionrelative:database\\restauranteapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientController.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\Downloads\\RestauranteApiPrograII\\RestauranteApi_completo_disponibilidad\\RestauranteApi_final\\Controllers\\ClientController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
-              "ToolTip": "C:\\Users\\Estudiantes UNA\\Downloads\\RestauranteApiPrograII\\RestauranteApi_completo_disponibilidad\\RestauranteApi_final\\Controllers\\ClientController.cs",
-              "RelativeToolTip": "Controllers\\ClientController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RestauranteApiDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\DataBase\\RestauranteApiDbContext.cs",
+              "RelativeDocumentMoniker": "DataBase\\RestauranteApiDbContext.cs",
+              "ToolTip": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\DataBase\\RestauranteApiDbContext.cs",
+              "RelativeToolTip": "DataBase\\RestauranteApiDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T23:25:47.16Z",
+              "WhenOpened": "2026-06-03T02:28:09.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RestauranteApi.postman_collection.json",
+              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\postman\\RestauranteApi.postman_collection.json",
+              "RelativeDocumentMoniker": "postman\\RestauranteApi.postman_collection.json",
+              "ToolTip": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\postman\\RestauranteApi.postman_collection.json",
+              "RelativeToolTip": "postman\\RestauranteApi.postman_collection.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-03T02:28:02.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-03T02:27:55.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "RestauranteApi.csproj",
-              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\Downloads\\RestauranteApiPrograII\\RestauranteApi_completo_disponibilidad\\RestauranteApi_final\\RestauranteApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\RestauranteApi.csproj",
               "RelativeDocumentMoniker": "RestauranteApi.csproj",
-              "ToolTip": "C:\\Users\\Estudiantes UNA\\Downloads\\RestauranteApiPrograII\\RestauranteApi_completo_disponibilidad\\RestauranteApi_final\\RestauranteApi.csproj",
+              "ToolTip": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\RestauranteApi.csproj",
               "RelativeToolTip": "RestauranteApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-05-13T20:15:59.22Z",
               "EditorCaption": ""

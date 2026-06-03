@@ -2,6 +2,12 @@ using RestauranteApi.DataBase;
 using RestauranteApi.Service.Implementations;
 using RestauranteApi.Service.Interfaces;
 using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.EntityFrameworkCore;
+using Swashbuckle.AspNetCore.SwaggerGen;
+using Microsoft.OpenApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +19,67 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
     });
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddDbContext<RestauranteApiDbContext>();
+// Configurar proveedor de base de datos desde appsettings (SqlServer | Postgres | InMemory)
+var dbProvider = builder.Configuration.GetValue<string>("DatabaseProvider") ?? "InMemory";
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+if (dbProvider.Equals("SqlServer", StringComparison.OrdinalIgnoreCase) && !string.IsNullOrEmpty(connectionString))
+{
+    builder.Services.AddDbContext<RestauranteApiDbContext>(opt => opt.UseSqlServer(connectionString));
+}
+else
+{
+    // Postgres support can be enabled by adding the Npgsql package and uncommenting the UseNpgsql call.
+    // Para entornos sin configuración, se usa el DbContext con opciones por defecto (InMemory en OnConfiguring).
+    builder.Services.AddDbContext<RestauranteApiDbContext>();
+}
+
+// Swagger / OpenAPI
+builder.Services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = Microsoft.OpenApi.Models.SecuritySchemeType.Http,
+        Scheme = "bearer",
+        BearerFormat = "JWT",
+        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+        Description = "Ingrese 'Bearer {token}'"
+    });
+
+    options.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+    {
+        {
+            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+            {
+                Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                {
+                    Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] { }
+        }
+    });
+});
+
+// JWT Authentication
+var jwtKey = builder.Configuration.GetValue<string>("Jwt:Key") ?? "ChangeThisKeyForProduction123!";
+var jwtIssuer = builder.Configuration.GetValue<string>("Jwt:Issuer") ?? "RestauranteApi";
+var jwtAudience = builder.Configuration.GetValue<string>("Jwt:Audience") ?? "RestauranteApiClients";
+var keyBytes = Encoding.UTF8.GetBytes(jwtKey);
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = jwtIssuer,
+            ValidAudience = jwtAudience,
+            IssuerSigningKey = new SymmetricSecurityKey(keyBytes)
+        };
+    });
 
 // ── Registrar todos los servicios ANTES de Build() ──
 builder.Services.AddScoped<IZoneService, ZoneService>();
@@ -35,7 +101,18 @@ using (var scope = app.Services.CreateScope())
     context.Database.EnsureCreated();
 }
 
+// Habilitar Swagger en Development
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 app.UseAuthorization();
+
 app.MapControllers();
+
 app.Run();

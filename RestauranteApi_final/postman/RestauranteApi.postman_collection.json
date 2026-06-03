@@ -1,0 +1,49 @@
+{
+  "info": {
+    "name": "RestauranteApi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Clients",
+      "item": [
+        {
+          "name": "Get All Clients",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": { "raw": "{{baseUrl}}/api/clients", "host": ["{{baseUrl}}"], "path": ["api","clients"] }
+          }
+        },
+        {
+          "name": "Create Client",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "body": { "mode": "raw", "raw": "{ \"name\": \"Juan\", \"lastName\": \"Perez\", \"phone\": \"98765432\" }" },
+            "url": { "raw": "{{baseUrl}}/api/clients", "host": ["{{baseUrl}}"], "path": ["api","clients"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Reservations",
+      "item": [
+        {
+          "name": "Get All Reservations",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/api/reservations", "host": ["{{baseUrl}}"], "path": ["api","reservations"] } }
+        },
+        {
+          "name": "Create Reservation",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "body": { "mode": "raw", "raw": "{ \"clientId\": 1, \"tableId\": 1, \"date\": \"2026-05-06\", \"reservationTime\": \"13:00:00\", \"guestCount\": 2 }" },
+            "url": { "raw": "{{baseUrl}}/api/reservations", "host": ["{{baseUrl}}"], "path": ["api","reservations"] }
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [ { "key": "baseUrl", "value": "https://localhost:7131" } ]
+}

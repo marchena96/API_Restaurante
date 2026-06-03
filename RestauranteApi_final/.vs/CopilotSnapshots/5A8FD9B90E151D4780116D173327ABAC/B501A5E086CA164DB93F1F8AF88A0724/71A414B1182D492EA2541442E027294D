@@ -1,0 +1,109 @@
+﻿using RestauranteApi.DataBase;
+using RestauranteApi.Service.Implementations;
+using RestauranteApi.Service.Interfaces;
+using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.EntityFrameworkCore;
+using Swashbuckle.AspNetCore.SwaggerGen;
+using Microsoft.OpenApi;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+    });
+builder.Services.AddEndpointsApiExplorer();
+// Configurar proveedor de base de datos desde appsettings (SqlServer | Postgres | InMemory)
+var dbProvider = builder.Configuration.GetValue<string>("DatabaseProvider") ?? "InMemory";
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+if (dbProvider.Equals("SqlServer", StringComparison.OrdinalIgnoreCase) && !string.IsNullOrEmpty(connectionString))
+{
+    builder.Services.AddDbContext<RestauranteApiDbContext>(opt => opt.UseSqlServer(connectionString));
+}
+else
+{
+    // Postgres support can be enabled by adding the Npgsql package and uncommenting the UseNpgsql call.
+    // Para entornos sin configuración, se usa el DbContext con opciones por defecto (InMemory en OnConfiguring).
+    builder.Services.AddDbContext<RestauranteApiDbContext>();
+}
+
+// Swagger / OpenAPI
+builder.Services.AddSwaggerGen(options =>
+{
+    // JWT bearer auth in Swagger
+    var jwtScheme = new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Ingrese 'Bearer {token}'"
+    };
+    options.AddSecurityDefinition("Bearer", jwtScheme);
+
+    var securityRequirement = new OpenApiSecurityRequirement();
+    securityRequirement.Add(jwtScheme, new List<string> { });
+    options.AddSecurityRequirement(securityRequirement);
+});
+
+// JWT Authentication
+var jwtKey = builder.Configuration.GetValue<string>("Jwt:Key") ?? "ChangeThisKeyForProduction123!";
+var jwtIssuer = builder.Configuration.GetValue<string>("Jwt:Issuer") ?? "RestauranteApi";
+var jwtAudience = builder.Configuration.GetValue<string>("Jwt:Audience") ?? "RestauranteApiClients";
+var keyBytes = Encoding.UTF8.GetBytes(jwtKey);
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = jwtIssuer,
+            ValidAudience = jwtAudience,
+            IssuerSigningKey = new SymmetricSecurityKey(keyBytes)
+        };
+    });
+
+// ── Registrar todos los servicios ANTES de Build() ──
+builder.Services.AddScoped<IZoneService, ZoneService>();
+builder.Services.AddScoped<ISectionService, SectionService>();
+builder.Services.AddScoped<ITableService, TableService>();
+builder.Services.AddScoped<IClientService, ClientService>();
+builder.Services.AddScoped<ITurnService, TurnService>();
+builder.Services.AddScoped<IReservationService, ReservationService>();
+builder.Services.AddScoped<IAvailabilityService, AvailabilityService>();
+builder.Services.AddScoped<ILockTableService, LockTableService>();
+builder.Services.AddScoped<IWaitingListService, WaitingListService>();
+
+var app = builder.Build();
+
+// Asegura que la base InMemory existe y aplica los Seeds del DbContext
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<RestauranteApiDbContext>();
+    context.Database.EnsureCreated();
+}
+
+// Habilitar Swagger en Development
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();

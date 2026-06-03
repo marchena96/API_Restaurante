@@ -5,9 +5,17 @@ namespace RestauranteApi.DataBase
 {
     public class RestauranteApiDbContext : DbContext
     {
+        public RestauranteApiDbContext(DbContextOptions<RestauranteApiDbContext> options) : base(options)
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseInMemoryDatabase("MyDBTest");
+            // Fallback a InMemory si no se configuró DI
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseInMemoryDatabase("MyDBTest");
+            }
         }
 
         public DbSet<Client> Clients { get; set; }

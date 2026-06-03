@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Estudiantes UNA\\Downloads\\RestauranteApiPrograII\\RestauranteApi_completo_disponibilidad\\RestauranteApi_final\\RestauranteApi.csproj": {}
+    "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\RestauranteApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Estudiantes UNA\\Downloads\\RestauranteApiPrograII\\RestauranteApi_completo_disponibilidad\\RestauranteApi_final\\RestauranteApi.csproj": {
+    "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\RestauranteApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Estudiantes UNA\\Downloads\\RestauranteApiPrograII\\RestauranteApi_completo_disponibilidad\\RestauranteApi_final\\RestauranteApi.csproj",
+        "projectUniqueName": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\RestauranteApi.csproj",
         "projectName": "RestauranteApi",
-        "projectPath": "C:\\Users\\Estudiantes UNA\\Downloads\\RestauranteApiPrograII\\RestauranteApi_completo_disponibilidad\\RestauranteApi_final\\RestauranteApi.csproj",
+        "projectPath": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\RestauranteApi.csproj",
         "packagesPath": "C:\\Users\\Estudiantes UNA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Estudiantes UNA\\Downloads\\RestauranteApiPrograII\\RestauranteApi_completo_disponibilidad\\RestauranteApi_final\\obj\\",
+        "outputPath": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,6 +52,10 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.6, )"
@@ -60,9 +64,25 @@
               "target": "Package",
               "version": "[10.0.7, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[10.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[10.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.7, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
