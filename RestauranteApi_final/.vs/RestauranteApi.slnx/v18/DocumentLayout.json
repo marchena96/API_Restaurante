@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|c:\\users\\estudiantes una\\desktop\\api_restaurante\\restauranteapi_final\\restauranteapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|solutionrelative:restauranteapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|c:\\users\\estudiantes una\\desktop\\api_restaurante\\restauranteapi_final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiantes UNA\\.copilot\\plans\\plan-solucin-de-errores-de-compilacin-swagger,-jwt,-sql-server-y-migraciones.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MardownSecureEdit"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiantes UNA\\.copilot\\plans\\plan-solucin-de-errores-de-compilacin-swagger,-jwt,-sql-server-y-migraciones.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiantes UNA\\.copilot\\plans\\plan-plan-de-correccin-swagger,-jwt,-bd-y-postman.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|c:\\users\\estudiantes una\\desktop\\api_restaurante\\restauranteapi_final\\database\\restauranteapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|solutionrelative:database\\restauranteapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiantes UNA\\.copilot\\plans\\plan-generacin-de-documentacin-de-arquitectura.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|c:\\users\\estudiantes una\\desktop\\api_restaurante\\restauranteapi_final\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -15,8 +31,8 @@
       "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|solutionrelative:postman\\restauranteapi.postman_collection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|c:\\users\\estudiantes una\\desktop\\api_restaurante\\restauranteapi_final\\database\\restauranteapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|solutionrelative:database\\restauranteapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|c:\\users\\estudiantes una\\desktop\\api_restaurante\\restauranteapi_final\\restauranteapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D0FB4AC2-2A33-5295-A840-CB30C7E349F3}|RestauranteApi.csproj|solutionrelative:restauranteapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +50,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RestauranteApiDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\DataBase\\RestauranteApiDbContext.cs",
-              "RelativeDocumentMoniker": "DataBase\\RestauranteApiDbContext.cs",
-              "ToolTip": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\DataBase\\RestauranteApiDbContext.cs",
-              "RelativeToolTip": "DataBase\\RestauranteApiDbContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "plan-solucin-de-errores-de-compilacin-swagger,-jwt,-sql-server-y-migraciones.md",
+              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\.copilot\\plans\\plan-solucin-de-errores-de-compilacin-swagger,-jwt,-sql-server-y-migraciones.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.copilot\\plans\\plan-solucin-de-errores-de-compilacin-swagger,-jwt,-sql-server-y-migraciones.md",
+              "ToolTip": "C:\\Users\\Estudiantes UNA\\.copilot\\plans\\plan-solucin-de-errores-de-compilacin-swagger,-jwt,-sql-server-y-migraciones.md",
+              "RelativeToolTip": "..\\..\\..\\.copilot\\plans\\plan-solucin-de-errores-de-compilacin-swagger,-jwt,-sql-server-y-migraciones.md",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-03T21:58:30.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAADQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T02:28:09.806Z",
+              "WhenOpened": "2026-06-03T21:57:58.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "plan-solucin-de-errores-de-compilacin-swagger,-jwt,-sql-server-y-migraciones.md [Versi\u00F3n preliminar]",
+              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\.copilot\\plans\\plan-solucin-de-errores-de-compilacin-swagger,-jwt,-sql-server-y-migraciones.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.copilot\\plans\\plan-solucin-de-errores-de-compilacin-swagger,-jwt,-sql-server-y-migraciones.md",
+              "ToolTip": "C:\\Users\\Estudiantes UNA\\.copilot\\plans\\plan-solucin-de-errores-de-compilacin-swagger,-jwt,-sql-server-y-migraciones.md [Versi\u00F3n preliminar]",
+              "RelativeToolTip": "..\\..\\..\\.copilot\\plans\\plan-solucin-de-errores-de-compilacin-swagger,-jwt,-sql-server-y-migraciones.md [Versi\u00F3n preliminar]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-03T21:57:46.483Z",
+              "EditorCaption": " [Versi\u00F3n preliminar]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RestauranteApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\RestauranteApi.csproj",
+              "RelativeDocumentMoniker": "RestauranteApi.csproj",
+              "ToolTip": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\RestauranteApi.csproj",
+              "RelativeToolTip": "RestauranteApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-03T21:39:12.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "plan-plan-de-correccin-swagger,-jwt,-bd-y-postman.md [Versi\u00F3n preliminar]",
+              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\.copilot\\plans\\plan-plan-de-correccin-swagger,-jwt,-bd-y-postman.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.copilot\\plans\\plan-plan-de-correccin-swagger,-jwt,-bd-y-postman.md",
+              "ToolTip": "C:\\Users\\Estudiantes UNA\\.copilot\\plans\\plan-plan-de-correccin-swagger,-jwt,-bd-y-postman.md [Versi\u00F3n preliminar]",
+              "RelativeToolTip": "..\\..\\..\\.copilot\\plans\\plan-plan-de-correccin-swagger,-jwt,-bd-y-postman.md [Versi\u00F3n preliminar]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-03T21:39:05.508Z",
+              "EditorCaption": " [Versi\u00F3n preliminar]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "plan-generacin-de-documentacin-de-arquitectura.md [Versi\u00F3n preliminar]",
+              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\.copilot\\plans\\plan-generacin-de-documentacin-de-arquitectura.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.copilot\\plans\\plan-generacin-de-documentacin-de-arquitectura.md",
+              "ToolTip": "C:\\Users\\Estudiantes UNA\\.copilot\\plans\\plan-generacin-de-documentacin-de-arquitectura.md [Versi\u00F3n preliminar]",
+              "RelativeToolTip": "..\\..\\..\\.copilot\\plans\\plan-generacin-de-documentacin-de-arquitectura.md [Versi\u00F3n preliminar]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-03T21:21:04.911Z",
+              "EditorCaption": " [Versi\u00F3n preliminar]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RestauranteApiDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\DataBase\\RestauranteApiDbContext.cs",
+              "RelativeDocumentMoniker": "DataBase\\RestauranteApiDbContext.cs",
+              "ToolTip": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\DataBase\\RestauranteApiDbContext.cs",
+              "RelativeToolTip": "DataBase\\RestauranteApiDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T02:28:09.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RestauranteApi.postman_collection.json",
               "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\postman\\RestauranteApi.postman_collection.json",
               "RelativeDocumentMoniker": "postman\\RestauranteApi.postman_collection.json",
@@ -55,12 +144,11 @@
               "RelativeToolTip": "postman\\RestauranteApi.postman_collection.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-03T02:28:02.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T02:28:02.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -68,21 +156,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-03T02:27:55.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RestauranteApi.csproj",
-              "DocumentMoniker": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\RestauranteApi.csproj",
-              "RelativeDocumentMoniker": "RestauranteApi.csproj",
-              "ToolTip": "C:\\Users\\Estudiantes UNA\\Desktop\\API_Restaurante\\RestauranteApi_final\\RestauranteApi.csproj",
-              "RelativeToolTip": "RestauranteApi.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-13T20:15:59.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T02:27:55.27Z"
             }
           ]
         }

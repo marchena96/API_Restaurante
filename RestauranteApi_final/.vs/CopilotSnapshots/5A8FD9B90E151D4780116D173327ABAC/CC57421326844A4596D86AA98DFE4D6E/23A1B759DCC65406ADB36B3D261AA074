@@ -1,4 +1,4 @@
-using RestauranteApi.DataBase;
+﻿using RestauranteApi.DataBase;
 using RestauranteApi.Service.Implementations;
 using RestauranteApi.Service.Interfaces;
 using System.Text.Json.Serialization;
@@ -7,7 +7,6 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
-using Microsoft.OpenApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
